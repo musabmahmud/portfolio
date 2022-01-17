@@ -28,18 +28,10 @@ const Navbar = () => {
     const { pathname } = useRouter();
 
     useEffect(() => {
-        if (pathname === '/') {
-            setactiveItem('About');
-        }
-        if (pathname === '/About') {
-            setactiveItem('About');
-        }
-        if (pathname === '/Projects') {
-            setactiveItem('Projects');
-        } if (pathname === '/Resume') {
-            setactiveItem('Resume');
-        }
-    }, [])
+        if (pathname === '/') setactiveItem('About')
+        else if (pathname === '/projects') setactiveItem('Projects')
+        else if (pathname === '/resume') setactiveItem('Resume')
+     }, [pathname])
 
     return (
         <div className='flex justify-between py-3 my-1'>

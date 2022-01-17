@@ -12,7 +12,6 @@ import { services } from "./../data";
 import {stagger,fadeInUp} from './../animates';
 import Link from "next/link";
 const About = ({endpoint}) => {
-  console.log(endpoint);
 
   return (
     <div className="flex flex-col flex-grow pt-1">
@@ -47,12 +46,22 @@ const About = ({endpoint}) => {
 };
 
 
+// export async function getServerSideProps(context: GetServerSidePropsContext) {
+//   return {
+//     props: { endpoint: process.env.VERCEL_URL } , // will be passed to the page component as props
+//   }
+// }
+// export const getServerSideProps: GetServerSideProps = async (
+//    context: GetServerSidePropsContext
+// ) => {
+//    return { props: { endpoint: process.env.VERCEL_URL } }
+// }
+
 export const getServerSideProps: GetServerSideProps = async (
    context: GetServerSidePropsContext
 ) => {
-   return { props: { endpoint: process.env.VERCEL_URL } }
+   return { props: { endpoint : process.env.VERCEL_URL || null} }
 }
-
 
 
 export default About;

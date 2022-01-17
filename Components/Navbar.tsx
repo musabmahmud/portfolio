@@ -21,6 +21,7 @@ const NavItem: FunctionComponent<{
     ) : null
 }
 
+
 const Navbar = () => {
 
     const [activeItem, setactiveItem] = useState('About');

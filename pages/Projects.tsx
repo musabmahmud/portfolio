@@ -37,7 +37,7 @@ const Projects = () => {
                 projects.map((project) => ( 
                     <motion.div
                     variants={fadeInUp}
-                    key={project.id} className="col-span-12 p-2 bg-gray-100 rounded-lg sm:col-span-6 lg:col-span-4 hover:shadow-lg rounded">
+                    key={project.id} className="col-span-12 p-2 bg-gray-100 sm:col-span-6 lg:col-span-4 hover:shadow-lg rounded">
                         <ProjectCard project={project} showDetail={showDetail} setShowDetail={setShowDetail}/>
                     </motion.div>
                 ))}

@@ -21,8 +21,8 @@ const Bar:FunctionComponent<{
     }
 
     return (
-        <div className='my-2 text-white rounded-full bg-gray'>
-            <motion.div className='flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-green to-blue' style={{width: level}}
+        <div className='my-2 text-white rounded-full bg-gray-100'>
+            <motion.div className='flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-green-500 to-blue-500' style={{width: level}}
                 variants={variants}
                 initial="initial"
                 animate="animate"

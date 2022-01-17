@@ -11,7 +11,7 @@ const ServiceCard: FunctionComponent<{service:IService}> = ({service:{title,abou
     return (
         <div className='flex items-center px-2 py-4 space-x-4'>
             <div className='flex-none w-10'>
-                <Icon className='text-green w-10 h-full text-center'/>
+                <Icon className='text-green-500 w-10 h-full text-center'/>
             </div>
             <div className='flex-initial'>
                 <h4 className='font-bold capitalize'>{title}</h4>

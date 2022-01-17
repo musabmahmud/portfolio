@@ -32,7 +32,7 @@ const ProjectCard: FunctionComponent<{
         <motion.div 
             variants={fadeInUp}
             initial="initial"
-            animate="animate" className="border-4 border-green p-2">
+            animate="animate" className="border-4 border-green-500 p-2">
           <Image
           src={image_path}
           alt={name} 
@@ -48,13 +48,13 @@ const ProjectCard: FunctionComponent<{
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={fadeInUp} className="my-5 text-2xl font-bold text-green">{name}</motion.h2>
+          <motion.h2 variants={fadeInUp} className="my-5 text-2xl font-bold text-green-500">{name}</motion.h2>
           <motion.h3 variants={fadeInUp}>{description}</motion.h3>
           <motion.div
           variants={fadeInUp}
           >
-            <a href={github_url} className="flex my-2"><AiFillGithub className="text-green" size={30}/> <span className="ml-2 text-xl uppercase">Github</span></a>
-            <a href={deployed_url} className="flex my-2"><AiFillProject className="text-green" size={30}/> <span className="ml-2 text-xl uppercase">Project</span></a>
+            <a href={github_url} className="flex my-2"><AiFillGithub className="text-green-500" size={30}/> <span className="ml-2 text-xl uppercase">Github</span></a>
+            <a href={deployed_url} className="flex my-2"><AiFillProject className="text-green-500" size={30}/> <span className="ml-2 text-xl uppercase">Project</span></a>
           </motion.div>
           <motion.div variants={fadeInUp} className="flex flex-wrap mt-5 space-x-2 text-sm"><span className="font-bold">Technologies: </span>
             {

@@ -11,7 +11,7 @@ class MyDocument extends Document {
       <Html lang='en' className='dark'>
         <Head />
             <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Ubuntu+Mono&display=swap" rel="stylesheet"/>
-        <body className='bg-gradient-to-tr from-green to-blue' style={{height: "100%", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed"}}>
+          <body className='bg-gradient-to-tr from-green-500 to-blue-500' style={{height: "100%", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed"}}>
           <Main />
           <NextScript />
         </body>

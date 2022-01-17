@@ -11,12 +11,12 @@ const resume = () => {
             {/* education */}
             <h5 className='text-2xl font-bold uppercase mb-2'>Education</h5>
             <div className='grid gap-6 sm:grid-cols-2 mb-5'>
-                <div>
+                <div className='bg-gray-100 p-4 rounded'>
                     <h5 className='text-lg font-bold'>1. B.Sc in Computer Science and Engineering</h5>
                     <p className='font-semibold'>Academic of Technology(2018-2022)</p>
                     <p className='pt-2'>I&apos;m completed a B.tech in <b>Computer Science and Engineering</b> from <b>City University</b></p>
                 </div>
-                <div>
+                <div className='bg-gray-100 p-4 rounded'>
                     <h5 className='text-lg font-bold'>2. Higher Secondary School Certificate (HSC)</h5>
                     <p className='font-semibold'>Academic of Technology(2015-2017)</p>
                     <p className='pt-2'>I&apos;m completed my HSC, <b>Science Background</b> from <b>Sheik Borhanudding College</b></p>
@@ -24,7 +24,7 @@ const resume = () => {
             </div>
             <h5 className='text-2xl font-bold uppercase mb-2'>Experience</h5>
             <div className='grid gap-6 sm:grid-cols-2 mb-5'>
-                <div>
+                <div className='bg-gray-100 p-4 rounded'>
                     <a href='//www.fiverr.com/musabmahmud' target="_blank" rel="noreferrer">
                         <h5 className='text-lg font-bold uppercase'>1. FrontEnd Developer</h5>
                         Fiverr (2020-continued)
@@ -33,7 +33,7 @@ const resume = () => {
                         </p>
                     </a>
                 </div>
-                <div>
+                <div className='bg-gray-100 p-4 rounded'>
                     <a href='//www.upwork.com/freelancers/~01e95241d6d90e6f0c' target="_blank" rel="noreferrer">
                         <h5 className='text-lg font-bold uppercase'>2. Full Stack Web Developer (MERN)</h5>
                         Fiverr (2020-continued)
@@ -45,15 +45,15 @@ const resume = () => {
             </div>
             <h5 className='text-2xl font-bold uppercase mb-2'>Certified Courses</h5>
             <div className='grid gap-6 sm:grid-cols-3 mb-5'>
-                <div>
+                <div className='bg-gray-100 p-4 rounded'>
                     <h5 className='text-lg font-bold'>Web Development</h5>
                     <p className='font-semibold'>Node, Express, React and Mongodb <br />(July, 2021 - Dec, 2021) from Programming Hero</p>
                 </div>
-                <div>
+                <div className='bg-gray-100 p-4 rounded'>
                     <h5 className='text-lg font-bold'>Web Application Development</h5>
                     <p className='font-semibold'>PHP AND LARAVEL <br />(Dec, 2020 – June, 2021) from Creative IT Institute</p>
                 </div>
-                <div>
+                <div className='bg-gray-100 p-4 rounded'>
                     <h5 className='text-lg font-bold'>Web Design and Development</h5>
                     <p className='font-semibold'>PHP AND LARAVEL <br />(May, 2018 - Nov, 2018) from SEIP (NIET)</p>
                 </div>

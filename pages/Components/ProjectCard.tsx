@@ -1,10 +1,10 @@
 import { FunctionComponent, useState } from "react";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-import { IProject } from "../type";
+import { IProject } from "../../type";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { fadeInUp, stagger } from "../animates";
+import { fadeInUp, stagger } from "../../animates";
 
 const ProjectCard: FunctionComponent<{
   project: IProject;
@@ -28,11 +28,11 @@ const ProjectCard: FunctionComponent<{
     <div>
       {
         showDetail === id ?
-        <div className="absolute grid sm:grid-cols-2 bg-white left-0 z-10 h-auto w-full gap-x-6 px-4 py-6 shadow rounded">
+        <div className="absolute left-0 z-10 grid w-full h-auto px-4 py-6 bg-white rounded shadow sm:grid-cols-2 gap-x-6">
         <motion.div 
             variants={fadeInUp}
             initial="initial"
-            animate="animate" className="border-4 border-green-500 p-2">
+            animate="animate" className="p-2 border-4 border-green-500">
           <Image
           src={image_path}
           alt={name} 
@@ -58,13 +58,13 @@ const ProjectCard: FunctionComponent<{
           </motion.div>
           <motion.div variants={fadeInUp} className="flex flex-wrap mt-5 space-x-2 text-sm"><span className="font-bold">Technologies: </span>
             {
-              key_techs.map(tech => <span key={tech} className="bg-gray-50 px-2 mb-2">
+              key_techs.map(tech => <span key={tech} className="px-2 mb-2 bg-gray-50">
                 {tech}
               </span>)
             }
           </motion.div>
         </motion.div>
-        <button onClick={() => setShowDetail(null)} className="absolute top-4 right-4 focus:outline-none p-1 z-20 bg-slate-50"><MdClose size={30}/></button>
+        <button onClick={() => setShowDetail(null)} className="absolute z-20 p-1 top-4 right-4 focus:outline-none bg-slate-50"><MdClose size={30}/></button>
         </div>
         : 
         <div onClick={() => setShowDetail(id)}>

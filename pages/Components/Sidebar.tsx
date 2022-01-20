@@ -4,15 +4,15 @@ import {ImLocation2,ImEnvelop} from "react-icons/im";
 import {SiFiverr,SiUpwork} from "react-icons/si";
 import {FiPhoneCall} from "react-icons/fi";
 import Image from 'next/image';
-import image_path from './../public/picture.jpg';
+import image_path from './../../public/picture.jpg';
 const Sidebar = () => {
     return (
         <div>
-            <div className='mx-auto rounded-full p-1 mt-3 bg-green-500'>
+            <div className='p-1 mx-auto mt-3 bg-green-500 rounded-full'>
                 <Image
                     src={image_path}
                     alt='MD MUSAB MAHMUD | FULL STACK WEB DEVELOPER' 
-                    className="cursor-pointe rounded-full"
+                    className="rounded-full cursor-pointe"
                     width={300}
                     height={300}
                     priority
@@ -22,8 +22,8 @@ const Sidebar = () => {
             <h3 className='my-4 text-3xl font-bold tracking-wider font-monospace'>
                 <span className='text-green-500'>Musab Mahmud</span> 
             </h3>
-            <p className='p-2 my-3 rounded-full bg-gray-200'>MERN STACK DEVELOPER</p>
-            <a className='flex items-center justify-center p-2 my-3 rounded-full bg-gray-200' 
+            <p className='p-2 my-3 bg-gray-200 rounded-full'>MERN STACK DEVELOPER</p>
+            <a className='flex items-center justify-center p-2 my-3 bg-gray-200 rounded-full' 
             href='./assets/musabmahmud.pdf'
             download="musabmahmud.pdf"><AiOutlineDownload className='text-green-500'/> RESUME</a>
             {/* Social Icons*/}

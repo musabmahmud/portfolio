@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React, { useState } from 'react';
-import ProjectCard from '../Components/ProjectCard';
-import ProjectNavbar from '../Components/ProjectNavbar';
+import ProjectCard from './Components/ProjectCard';
+import ProjectNavbar from './Components/ProjectNavbar';
 import { projects as projectsData } from '../data';
 import { Category } from '../type';
 import {stagger,fadeInUp} from './../animates';
@@ -29,7 +29,7 @@ const Projects = () => {
            <ProjectNavbar
             handlerFilterCategory={handlerFilterCategory}
             active={active}/>
-            <motion.div className='grid grid-cols-12 gap-4 relative mt-3'
+            <motion.div className='relative grid grid-cols-12 gap-4 mt-3'
               variants={stagger}
               initial="initial"
               animate="animate">
@@ -37,7 +37,7 @@ const Projects = () => {
                 projects.map((project) => ( 
                     <motion.div
                     variants={fadeInUp}
-                    key={project.id} className="col-span-12 p-2 bg-gray-100 sm:col-span-6 lg:col-span-4 hover:shadow-lg rounded">
+                    key={project.id} className="col-span-12 p-2 bg-gray-100 rounded sm:col-span-6 lg:col-span-4 hover:shadow-lg">
                         <ProjectCard project={project} showDetail={showDetail} setShowDetail={setShowDetail}/>
                     </motion.div>
                 ))}

@@ -6,7 +6,7 @@ import {
   GetStaticPropsContext,
   NextPage,
 } from "next";
-import ServiceCard from "./Components/ServiceCard";
+import ServiceCard from "./components/ServiceCard";
 import { services } from "./../data";
 // import { IService } from "./../types";
 import {stagger,fadeInUp} from './../animates';

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React, { useState } from 'react';
-import ProjectCard from './components/ProjectCard';
-import ProjectNavbar from './components/ProjectNavbar';
+import ProjectCard from '../components/ProjectCard';
+import ProjectNavbar from '../components/ProjectNavbar';
 import { projects as projectsData } from '../data';
 import { Category } from '../type';
 import {stagger,fadeInUp} from './../animates';

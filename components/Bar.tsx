@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { Iskill } from '../../type';
+import { Iskill } from '../type';
 import {motion} from 'framer-motion';
 const Bar:FunctionComponent<{
     data:Iskill

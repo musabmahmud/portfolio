@@ -32,7 +32,7 @@ const About = ({endpoint}) => {
           {services.map((service) => (
             <motion.div
               variants={fadeInUp}
-              className="col-span-2 p-2 rounded-lg md:col-span-1 bg-gray-200 hover:shadow"
+              className="col-span-2 p-2 bg-gray-200 rounded-lg md:col-span-1 hover:shadow"
               key={service.id}
             >
               <ServiceCard service={service}

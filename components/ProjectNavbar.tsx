@@ -22,7 +22,7 @@ const ProjectNavbar: FunctionComponent<{
     active: string;
   }> = (props) => {
     return (
-        <div className="block sm:flex list-none capitalize font-xl">
+        <div className="block capitalize list-none sm:flex font-xl">
             <NavItem value="all" {...props}/>
             <NavItem value="react" {...props}/>
             <NavItem value="node" {...props}/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Bar from '../components/Bar';
+import Bar from './../components/Bar';
 import { languages, tools } from '../data';
 import {motion} from 'framer-motion';
 import {fadeInUp} from './../animates';

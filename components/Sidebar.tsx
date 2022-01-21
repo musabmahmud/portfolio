@@ -4,7 +4,7 @@ import {ImLocation2,ImEnvelop} from "react-icons/im";
 import {SiFiverr,SiUpwork} from "react-icons/si";
 import {FiPhoneCall} from "react-icons/fi";
 import Image from 'next/image';
-import image_path from './../../public/picture.jpg';
+import image_path from './../public/picture.jpg';
 const Sidebar = () => {
     return (
         <div>
@@ -12,7 +12,7 @@ const Sidebar = () => {
                 <Image
                     src={image_path}
                     alt='MD MUSAB MAHMUD | FULL STACK WEB DEVELOPER' 
-                    className="rounded-full cursor-pointe"
+                    className="rounded-full cursor-pointer"
                     width={300}
                     height={300}
                     priority

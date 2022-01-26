@@ -1,16 +1,8 @@
 import { motion } from "framer-motion";
-import {
-  GetServerSideProps,
-  GetServerSidePropsContext,
-  GetStaticProps,
-  GetStaticPropsContext,
-  NextPage,
-} from "next";
+import { GetServerSideProps, GetServerSidePropsContext } from "next";
 import ServiceCard from "./../components/ServiceCard";
 import { services } from "./../data";
-// import { IService } from "./../types";
 import {stagger,fadeInUp} from './../animates';
-import Link from "next/link";
 const About = ({endpoint}) => {
 
   return (

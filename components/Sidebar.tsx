@@ -20,7 +20,7 @@ const Sidebar = () => {
                 />
             </div>
             <h3 className='my-4 text-3xl font-bold tracking-wider font-monospace'>
-                <span className='text-green-500'>Musab Mahmud</span> 
+                <span className='text-green-500'>Musab</span> Mahmud
             </h3>
             <p className='p-2 my-3 bg-gray-200 rounded-full'>MERN STACK DEVELOPER</p>
             <a className='flex items-center justify-center p-2 my-3 bg-gray-200 rounded-full' 

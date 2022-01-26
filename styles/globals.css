@@ -9,6 +9,7 @@ body{
 }
 ::-webkit-scrollbar-thumb{
   background-image: linear-gradient(to right top, #00f260, #0575e6);
+  border-radius: 50px;
 }
 ::-webkit-scrollbar{
   width: 5px;

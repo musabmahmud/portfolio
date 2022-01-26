@@ -25,11 +25,11 @@ const Projects = () => {
   const [showDetail, setShowDetail] = useState<number|null>(null);
 
     return (
-        <div className='px-5 mt-3 overflow-y-scroll' style={{height: '70vh'}}>
+        <div className='px-5 overflow-y-scroll' style={{height: '70vh'}}>
            <ProjectNavbar
             handlerFilterCategory={handlerFilterCategory}
             active={active}/>
-            <motion.div className='relative grid grid-cols-12 gap-4 mt-3'
+            <motion.div className='relative grid grid-cols-12 gap-4 mt-5'
               variants={stagger}
               initial="initial"
               animate="animate">
@@ -37,7 +37,7 @@ const Projects = () => {
                 projects.map((project) => ( 
                     <motion.div
                     variants={fadeInUp}
-                    key={project.id} className="col-span-12 p-2 bg-gray-100 rounded sm:col-span-6 lg:col-span-4 hover:shadow-lg">
+                    key={project.id} className="col-span-12 p-2 bg-gray-100 rounded hover:shadow-lg sm:col-span-6 lg:col-span-4">
                         <ProjectCard project={project} showDetail={showDetail} setShowDetail={setShowDetail}/>
                     </motion.div>
                 ))}

@@ -6,7 +6,7 @@ import {stagger,fadeInUp} from './../animates';
 const About = ({endpoint}) => {
 
   return (
-    <div className="flex flex-col flex-grow pt-1">
+    <div className="flex flex-col flex-grow pt-1 overflow-y-scroll" style={{height: '75vh'}}>
       <h6 className="font-medium text-justify sm:px-4">
         I&apos;m Md Musab Mahmud, B.Sc in CSE and strongly Qualified more than 2 years in <b>FrontEnd Development</b>. I&apos;ve experienced in responsive design which is useful for supporting your site in any device like mobiles, tablets, laptops and any type of computer. I write all codes clearly in handed and commented for understanding or modifying easily.
       </h6>

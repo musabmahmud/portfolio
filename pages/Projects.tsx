@@ -25,7 +25,7 @@ const Projects = () => {
   const [showDetail, setShowDetail] = useState<number|null>(null);
 
     return (
-        <div className='px-5 overflow-y-scroll' style={{height: '70vh'}}>
+        <div className='px-5 overflow-y-scroll' style={{height: '75vh'}}>
            <ProjectNavbar
             handlerFilterCategory={handlerFilterCategory}
             active={active}/>

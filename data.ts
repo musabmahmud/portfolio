@@ -57,19 +57,9 @@ export const languages:Iskill[] = [
       Icon: BsCircleFill
     },
     {
-      id: 1,
-      name: 'Node',
-      level : '75%',
-      Icon: BsCircleFill
-    },{
-      id: 2,
-      name: 'Mongodb',
-      level : '85%',
-      Icon: BsCircleFill
-    },{
-      id: 3,
-      name: 'Express',
-      level : '85%',
+      id: 100,
+      name: 'Redux',
+      level : '80%',
       Icon: BsCircleFill
     },{
       id: 4,
@@ -79,27 +69,7 @@ export const languages:Iskill[] = [
     },{
       id: 5,
       name: 'TypeScript',
-      level : '80%',
-      Icon: BsCircleFill
-    },{
-      id: 8,
-      name: 'javascript',
-      level : '95%',
-      Icon: BsCircleFill
-    },{
-      id: 6,
-      name: 'HTML5',
-      level : '100%',
-      Icon: BsCircleFill
-    },{
-      id: 7,
-      name: 'css3',
-      level : '100%',
-      Icon: BsCircleFill
-    },{
-      id: 9,
-      name: 'scss',
-      level : '100%',
+      level : '85%',
       Icon: BsCircleFill
     },{
       id: 10,
@@ -116,6 +86,47 @@ export const languages:Iskill[] = [
       name: 'Material UI',
       level : '90%',
       Icon: BsCircleFill
+    },
+    {
+      id: 1,
+      name: 'Node',
+      level : '70%',
+      Icon: BsCircleFill
+    },{
+      id: 2,
+      name: 'Mongodb',
+      level : '80%',
+      Icon: BsCircleFill
+    },{
+      id: 3,
+      name: 'Express',
+      level : '75%',
+      Icon: BsCircleFill
+    },{
+      id: 3,
+      name: 'Firebase',
+      level : '85%',
+      Icon: BsCircleFill
+    },{
+      id: 8,
+      name: 'javascript',
+      level : '95%',
+      Icon: BsCircleFill
+    },{
+      id: 6,
+      name: 'HTML - 5',
+      level : '100%',
+      Icon: BsCircleFill
+    },{
+      id: 7,
+      name: 'css - 3',
+      level : '100%',
+      Icon: BsCircleFill
+    },{
+      id: 9,
+      name: 'scss',
+      level : '99%',
+      Icon: BsCircleFill
     },{
       id: 13,
       name: 'php',
@@ -125,6 +136,11 @@ export const languages:Iskill[] = [
       id: 14,
       name: 'Laravel',
       level : '75%',
+      Icon: BsCircleFill
+    },{
+      id: 120,
+      name: 'React Native',
+      level : '90%',
       Icon: BsCircleFill
     },
 ]
@@ -160,7 +176,46 @@ export const tools:Iskill[] = [
 
 
 export const projects: IProject[] = [
-  
+  {
+    id:0,
+    name: "Portfolio Next, TS(Tailwind)",
+    image_path: "/templates/mine.PNG",
+    deployed_url: "#",
+    github_url: "#",
+    category: ["react"],
+    description: "I make my Portfolio using Next, TS and Tailwind CSS.",
+    key_techs: ["React", "Next", "TypeScript", "Tailwind"]
+  },
+  {
+  id:17,
+  name: "Redux Ecommerce(Tailwind)",
+  image_path: "/templates/react_redux.PNG",
+  deployed_url: "https://relaxed-kilby-eb2b7c.netlify.app/",
+  github_url: "https://github.com/musabmahmud/react-redux-ecom",
+  category: ["react"],
+  description: "React-Redux E-commerce using Tailwind",
+  key_techs: ["React", "Redux"]
+  },
+  {
+  id:16,
+  name: "React-Redux E-commerce",
+  image_path: "/templates/ema_john.PNG",
+  deployed_url: "https://elastic-shannon-ecc132.netlify.app",
+  github_url: "https://github.com/musabmahmud/ema-john-simple",
+  category: ["react"],
+  description: "React E-commerce using Firebase. Post shuffle like Facebook",
+  key_techs: ["React", "Redux", "Firebase"]
+  },
+  {
+    id:14,
+    name: "E-commerce Material-UI",
+    image_path: "/templates/ecommerce_mui.PNG",
+    deployed_url: "https://flamboyant-murdock-cac9e7.netlify.app",
+    github_url: "https://github.com/musabmahmud/ecommerce-using-react",
+    category: ["react"],
+    description: "A Responsive E-commerce using Commerce Js, and Material-UI",
+    key_techs: ["React", "Commerce js","Material-UI"]
+  },
   {
     id:2,
     name: "Javascript Website",
@@ -180,6 +235,26 @@ export const projects: IProject[] = [
     category: ["web design"],
     description: "Particles shows cool animation",
     key_techs: ["html", "css", "sass", "bootstrap", "javascript","jquery","magnific-popup","mean-menu","owl carousel","preloader"],
+  },
+  {
+    id:15,
+    name: "React Crud Using Axios",
+    image_path: "/templates/react_axios.PNG",
+    deployed_url: "https://elated-lichterman-659a8d.netlify.app/",
+    github_url: "https://github.com/musabmahmud/react-crud",
+    category: ["react"],
+    description: "React Todo List Crud Using Axios",
+    key_techs: ["React", "Axios"]
+  },
+  {
+    id:18,
+    name: "React Practice",
+    image_path: "/templates/react_practice.PNG",
+    deployed_url: "https://wonderful-haibt-46f269.netlify.app/",
+    github_url: "https://github.com/musabmahmud/user-list/",
+    category: ["react"],
+    description: "React UseState, UseEffect test by Shuffle post",
+    key_techs: ["React"]
   },
   {
     id:3,
@@ -242,6 +317,36 @@ export const projects: IProject[] = [
     key_techs: ["html", "css", "sass", "bootstrap", "javascript", "jquery","slider"],
   },
   {
+    id:21,
+    name: "Ecommerce (PHP)",
+    image_path: "/templates/ecommerce_php.PNG",
+    deployed_url: "#",
+    github_url: "https://github.com/musabmahmud/ecommerce",
+    category: ["laravel"],
+    description: "Ecommerce using PHP",
+    key_techs: ["php","html", "css", "sass", "bootstrap", "javascript", "jquery"],
+  },
+  {
+    id:22,
+    name: "Portfolio Website(php)",
+    image_path: "/templates/portfolio_php.PNG",
+    deployed_url: "https://musabmahmud.github.io/Simple-Project-Html/index.html",
+    github_url: "https://github.com/musabmahmud/Simple-Project-Html",
+    category: ["laravel"],
+    description: "Portfolio Website(php) under Creative It",
+    key_techs: ["php","html", "css", "sass", "bootstrap", "javascript", "jquery","slider"],
+  },
+  {
+    id:25,
+    name: "Ecommerce (Laravel)",
+    image_path: "/templates/laravel.PNG",
+    deployed_url: "https://",
+    github_url: "https://github.com/musabmahmud/jesko-ecommerce",
+    category: ["laravel"],
+    description: "Laravel Website under Creative It",
+    key_techs: ["Laravel","html", "css", "sass", "bootstrap", "javascript", "jquery","slider"],
+  },
+  {
     id:9,
     name: "Ads Based Website",
     image_path: "/templates/ata.PNG",
@@ -290,5 +395,15 @@ export const projects: IProject[] = [
     category: ["js"],
     description: "A Responsive Bootstrap Website",
     key_techs: ["HTML","CSS","Js"]
-  }
+  },
+  {
+    id:20,
+    name: "Ecommerce(Laravel)",
+    image_path: "/templates/laravel.PNG",
+    deployed_url: "https://",
+    github_url: "https://github.com/musabmahmud/jesko-ecommerce",
+    category: ["laravel"],
+    description: "Ecommerce Website Laravel",
+    key_techs: ["Laravel","html", "css", "sass", "bootstrap", "javascript", "jquery","slider"],
+  },
 ];

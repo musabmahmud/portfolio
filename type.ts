@@ -24,4 +24,4 @@ export interface IProject{
     category: Category[],
     key_techs:string[]
 }
-export type Category = "react" | "mern" | "web design" | "firebase" | "laravel" | "js";
+export type Category = "react" | "mern" | "web design" | "laravel" | "js";

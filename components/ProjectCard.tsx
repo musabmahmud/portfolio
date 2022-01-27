@@ -37,7 +37,7 @@ const ProjectCard: FunctionComponent<{
           src={image_path}
           alt={name}
           width={350}
-          height={230}
+          height={220}
           priority
           layout='responsive'
           className="m-auto"
@@ -53,8 +53,8 @@ const ProjectCard: FunctionComponent<{
           <motion.div
           variants={fadeInUp}
           >
-            <a href={deployed_url} className="flex my-2"><AiFillProject className="text-green-500" size={24}/> <span className="ml-2 text-xl uppercase hover:text-green-500">Live preview</span></a>
-            <a href={github_url} className="flex my-2"><AiFillGithub className="text-green-500" size={24}/> <span className="ml-2 text-xl uppercase hover:text-green-500">Code view</span></a>
+            <a href={deployed_url} target="_blank" rel="noreferrer" className="flex my-2"><AiFillProject className="text-green-500" size={24}/> <span className="ml-2 text-xl uppercase hover:text-green-500">Live preview</span></a>
+            <a href={github_url} target="_blank" rel="noreferrer" className="flex my-2"><AiFillGithub className="text-green-500" size={24}/> <span className="ml-2 text-xl uppercase hover:text-green-500">Code view</span></a>
           </motion.div>
           <motion.div variants={fadeInUp} className="flex flex-wrap mt-2 space-x-2 text-sm"><span className="font-bold">Technologies: </span>
             {
@@ -73,7 +73,7 @@ const ProjectCard: FunctionComponent<{
             alt={name} 
             className="cursor-pointer"
             width={300}
-            height={200}
+            height={180}
             priority
             layout='responsive'
           />

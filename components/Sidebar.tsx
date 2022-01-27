@@ -4,14 +4,14 @@ import {ImLocation2,ImEnvelop} from "react-icons/im";
 import {SiFiverr,SiUpwork} from "react-icons/si";
 import {FiPhoneCall} from "react-icons/fi";
 import Image from 'next/image';
-import image_path from './../public/picture.jpg';
+import image_path from './../public/picture.png';
 const Sidebar = () => {
     return (
         <div>
             <div className='p-1 mx-auto mt-3 bg-green-500 rounded-full'>
                 <Image
                     src={image_path}
-                    alt='MD MUSAB MAHMUD | FULL STACK WEB DEVELOPER' 
+                    alt='MD MUSAB MAHMUD | FULL STACK WEB DEVELOPER | Frontend Developer' 
                     className="rounded-full cursor-pointer"
                     width={300}
                     height={300}
@@ -19,10 +19,10 @@ const Sidebar = () => {
                     layout='responsive'
                 />
             </div>
-            <h3 className='my-4 text-3xl font-bold tracking-wider font-monospace'>
+            <h3 className='my-4 text-2xl font-bold tracking-wider font-monospace'>
                 <span className='text-green-500'>Musab</span> Mahmud
             </h3>
-            <p className='p-2 my-3 bg-gray-200 rounded-full'>MERN STACK DEVELOPER</p>
+            <p className='p-2 my-3 bg-gray-200 rounded-full uppercase'>Frontend Web DEVELOPER</p>
             <a className='flex items-center justify-center p-2 my-3 bg-gray-200 rounded-full' 
             href='./assets/musabmahmud.pdf'
             download="musabmahmud.pdf"><AiOutlineDownload className='text-green-500'/> RESUME</a>

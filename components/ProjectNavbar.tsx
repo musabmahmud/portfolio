@@ -26,7 +26,6 @@ const ProjectNavbar: FunctionComponent<{
             <NavItem value="all" {...props}/>
             <NavItem value="react" {...props}/>
             <NavItem value="mern" {...props}/>
-            <NavItem value="firebase" {...props}/>
             <NavItem value="laravel" {...props}/>
             <NavItem value="js" {...props}/>
             <NavItem value="web design" {...props}/>

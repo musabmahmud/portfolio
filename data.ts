@@ -103,7 +103,7 @@ export const languages:Iskill[] = [
       level : '75%',
       Icon: BsCircleFill
     },{
-      id: 3,
+      id: 30,
       name: 'Firebase',
       level : '85%',
       Icon: BsCircleFill

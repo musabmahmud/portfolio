@@ -9,6 +9,7 @@ module.exports = {
       'monospace': ['Ubuntu Mono', 'monospace'],
     },
     extend: {
+        
     },
   },
   plugins: [],

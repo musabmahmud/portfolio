@@ -8,7 +8,9 @@ const About = ({endpoint}) => {
   return (
     <div className="flex flex-col flex-grow pt-1 overflow-y-scroll" style={{height: '75vh'}}>
       <h6 className="font-medium text-justify sm:px-4">
-        I&apos;m Md Musab Mahmud, B.Sc in CSE and strongly Qualified more than 2 years in <b>FrontEnd Development</b>. I&apos;ve experienced in responsive design which is useful for supporting your site in any device like mobiles, tablets, laptops and any type of computer. I write all codes clearly in handed and commented for understanding or modifying easily.
+        I&apos;m Md Musab Mahmud, Full Stack Web Developer, strongly Qualified more than 1 year in Frontend Development which provides high-impact web solutions for diverse industry organizations. To prove myself as a quick learner and highly energetic person face any challenge in such an organization in the field of Computer Science and Engineering where I can exploit my academic and logical skills and keep myself updated with the upcoming technologies.<br/>
+        I&apos;ve experienced in responsive design that supports your site on any device like mobiles, tablets, laptops. I write my codes fully in handed and well-commented.
+        
       </h6>
       <div
         className="flex-grow mt-5 sm:p-4">

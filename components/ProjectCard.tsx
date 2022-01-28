@@ -54,7 +54,7 @@ const ProjectCard: FunctionComponent<{
           variants={fadeInUp}
           >
             <a href={deployed_url} target="_blank" rel="noreferrer" className="flex my-2"><AiFillProject className="text-green-500" size={24}/> <span className="ml-2 text-xl uppercase hover:text-green-500">Live preview</span></a>
-            <a href={github_url} target="_blank" rel="noreferrer" className="flex my-2"><AiFillGithub className="text-green-500" size={24}/> <span className="ml-2 text-xl uppercase hover:text-green-500">Code view</span></a>
+            <a href={github_url} target="_blank" rel="noreferrer" className="flex my-2"><AiFillGithub className="text-green-500" size={24}/> <span className="ml-2 text-xl uppercase hover:text-green-500">Source Code</span></a>
           </motion.div>
           <motion.div variants={fadeInUp} className="flex flex-wrap mt-2 space-x-2 text-sm"><span className="font-bold">Technologies: </span>
             {

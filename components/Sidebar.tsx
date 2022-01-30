@@ -28,19 +28,19 @@ const Sidebar = () => {
             download="musabmahmud.pdf"><AiOutlineDownload className='text-green-500'/> RESUME</a>
             {/* Social Icons*/}
             <div className='flex items-center justify-around w-9/12 mx-auto my-5 text-center text-green-500 md:w-full'>
-                <a href="//">
+                <a href="tel:+8801630858100" target="_blank" rel="noreferrer">
                     <AiOutlineWhatsApp className="w-8 h-8"/>
                 </a>
-                <a href="//">
+                <a href="https://www.fiverr.com/musabmahmud" target="_blank" rel="noreferrer">
                     <SiFiverr className="w-8 h-8"/>
                 </a>
-                <a href="//">
+                <a href="https://www.upwork.com/freelancers/~01e95241d6d90e6f0c" target="_blank" rel="noreferrer">
                     <SiUpwork className="w-8 h-8"/>
                 </a>
-                <a href="//">
+                <a href="https://github.com/musabmahmud" target="_blank" rel="noreferrer">
                     <AiFillGithub className="w-8 h-8"/>
                 </a>
-                <a href="//">
+                <a href="https://www.linkedin.com/in/md-musab-mahmud-600831190/" target="_blank" rel="noreferrer">
                     <AiFillLinkedin className="w-8 h-8"/>
                 </a>
             </div>
